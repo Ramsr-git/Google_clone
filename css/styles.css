@@ -1,0 +1,9 @@
+@import "reset.css";
+@import "topbar.css";
+@import "main.css";
+
+body {
+  background-color: white;
+  padding: 15px 20px;
+  color: #6f6f6f;
+}

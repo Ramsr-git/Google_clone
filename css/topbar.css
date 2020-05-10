@@ -1,0 +1,28 @@
+.topbar {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 7px;
+}
+
+.topbar__list {
+  padding: 7px 5px;
+}
+
+.topbar__list:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.topbar__list,
+.topbar__login {
+  padding-left: 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.topbar__login {
+  background-color: #4285f4;
+  color: white;
+  padding: 8px 13px;
+  margin-left: 12px;
+}
