@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "topbar.css";
 @import "main.css";
+@import "bottombar.css";
 
 body {
   background-color: white;

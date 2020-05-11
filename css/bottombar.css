@@ -1,0 +1,34 @@
+.bottombar {
+  background-color: #f2f2f2;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  position: fixed;
+  border: 1px solid #e4e4e4;
+  font-size: 14px;
+}
+
+.bottombar__ad-item:hover,
+.bottombar__priv-item:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.bottombar__cloume {
+  padding: 13px 30px;
+}
+
+.bottombar__ap {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 30px;
+  border-top: 1px solid #e4e4e4;
+}
+
+.bottombar__ad-item {
+  padding-right: 23px;
+}
+
+.bottombar__priv-item {
+  padding-left: 23px;
+}
